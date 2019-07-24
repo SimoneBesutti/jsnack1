@@ -8,8 +8,8 @@ var numeroUtente, numeroUtente2;
 
 
 //prompt numero utente
-numeroUtente = prompt("Inserisci un numero casuale");
-numeroUtente2 = prompt("Inserisci un'altro numero casuale");
+numeroUtente = parseInt(prompt("Inserisci un numero casuale"));
+numeroUtente2 = parseInt(prompt("Inserisci un'altro numero casuale"));
 
 
 //Decidere quale numero è maggiore tra i due
